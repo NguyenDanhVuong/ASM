@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		<link rel="stylesheet" type="text/css" href="Form.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div id="contant-form">
+			<h1>Form đăng ký người dùng</h1>
+			<form class="contact-form" action="https://youtube-api-challenger.appspot.com/member/register" method="post" >
+			
+				<p class="note"><span class="req">*</span> Asterisk fields are required</p>
+				
+				<div class="form">
+					<label>Username<span class="req">*</span></label>
+					<input class="text" type="text" name="username" placeholder="Tên đăng nhập." onkeyup="validateName()" id="name">
+					<p id="mess"></p>
+				</div>
+				
+				<div class="form">
+					<label>Fullname<span class="req">*</span></label>
+					<input class="text" type="text" name="fullName" placeholder="Họ và tên đầy đủ" onkeyup="validateFullname()" id="fullname">
+					<p id="full"></p>
+				</div>
+				
+				<div class="form">
+					<label>Email<span class="req">*</span></label>
+					<input class="text" type="email" name="email" placeholder="address@example.com"></label>
+				</div>
+				
+				<div class="form">
+					<label>Mật khẩu<span class="req">*</span></label>
+					<input class="text" type="password" name="password" placeholder="Mật khẩu đăng nhập." id="password" onkeyup="validatePass()">
+					<p id="pass"></p>
+				</div>
+
+				<div class="form">
+					<label>Xác nhận mật khẩu<span class="req">*</span></label>
+					<input class="text" type="password" name="confirmPassword" placeholder="Nhập lại mật khẩu bên trên." id="repassword" onkeyup="validateRePass()">
+					<p id="repass"></p>
+				</div>
+
+				<div class="form">
+					<label>Ngày sinh<span class="req">*</span></label>
+					<input class="text" type="date" name="birthDay" placeholder="Định dạng dd/mm/yyyy">
+				</div>
+
+				<div class="form">
+					<label>Giới tính<span class="req">*</span></label>			
+					<label><input type="radio" name="gender" value="1" checked> Nam</label>
+					<label><input type="radio" name="gender" value="0"> Nữ</label>
+				</div>
+				
+				<div class="form">
+					<label>Ảnh đại diện<span class="req">*</span></label>
+					<input class="text" type="avatar" name="avatar"></br>
+				</div>
+
+				<div class="form-button">
+					<label>&nbsp;</label>
+					<input type="submit" name="" value="Gửi">
+					<input type="reset" name="" value="Làm lại">
+				</div>
+			</form>
+		</div>
+		<script type="text/javascript" src="Form.js"></script>
+	</body>
+</html>

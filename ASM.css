@@ -1,0 +1,168 @@
+body{
+	top: 0;
+}
+header{
+	height: 200px;
+	width: 100%;
+}
+.video_background_1 {
+	position: fixed;
+	bottom: 0px;
+	right: 68%;
+	min-width: 100%;
+	min-height: 100%;
+	width: 30%;
+	height: auto;
+	z-index: -1000;
+	overflow: hidden;
+	float: left;
+}
+.video_2{
+	width: 30%;
+	height: 100%;
+}
+.video_background_2 {
+	position: fixed;	
+	bottom: 0px;
+	right: 30%;
+	min-width: 100%;
+	min-height: 100%;
+	width: 30%;
+	height: auto;
+	z-index: -1000;
+	overflow: hidden;
+	float: left;
+	background-clip: initial;
+}
+.video_background_3 {
+	position: fixed;	
+	bottom: 0px;	
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: 30%;
+	height: auto;
+	z-index: -1000;
+	float: left;
+}
+.effect ul li{
+	list-style: none;
+	display: inline-block;
+	font-size: 30px;
+	margin-top: 120px;
+	color:#fff;
+	border: 2px double #fff;
+	float: left;
+}
+.effect ul li a:hover{
+	color: #e60000;
+	border-style: double;
+}
+.effect ul li a{
+	color: #fff;
+	text-decoration: none;
+
+}
+.effect_1{
+	margin: 0 100px;
+
+}
+.effect_2{
+	margin:0 300px;
+}
+.effect_3 {
+	margin-left: 150px;
+}
+.top span{
+	float: left;
+	top:0;
+	left: 0;
+	font-size:30px;
+	cursor:pointer;
+	color: white;
+}
+.top2 span{
+	float: right;
+	top: 0;
+	right: 0;
+	font-size: 30px;
+	cursor: pointer;
+	color: white;
+}
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed !important;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn1 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn2 {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.top1{
+	float: right;
+}
